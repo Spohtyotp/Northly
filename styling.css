@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f8faff;
+    color: #111827;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.hero-box {
+    background: linear-gradient(145deg, #3b82f6 0%, #1d4ed8 100%);
+    color: white;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(59, 130, 246, 0.18);
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.logo-section {
+    padding: 70px 30px 50px;
+    text-align: center;
+}
+
+.main-logo {
+    font-size: 5.2rem;
+    font-weight: 800;
+    letter-spacing: -3px;
+    line-height: 0.9;
+    text-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+}
+
+.info-card {
+    background: white;
+    color: #111827;
+    margin: 0 24px 40px;
+    padding: 36px 28px;
+    border-radius: 20px;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.11);
+    text-align: center;
+}
+
+.app-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.tagline {
+    font-size: 1.08rem;
+    color: #64748b;
+    line-height: 1.5;
+    margin-bottom: 28px;
+}
+
+.credit {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+.team {
+    font-weight: 600;
+    color: #2563eb;
+}
+
+@media (max-width: 480px) {
+    .main-logo {
+        font-size: 4.2rem;
+    }
+    
+    .app-title {
+        font-size: 2.1rem;
+    }
+    
+    .hero-box {
+        border-radius: 20px;
+    }
+    
+    .logo-section {
+        padding: 60px 24px 40px;
+    }
+    
+    .info-card {
+        margin: 0 16px 32px;
+        padding: 32px 24px;
+    }
+}
