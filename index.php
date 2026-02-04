@@ -20,7 +20,7 @@
         <!-- headcard -->
         <div class="info-card">
             <h2 class="app-title">Northly app</h2>
-            <p class="tagline">Some small text</p>
+            <p class="tagline">Between the two Norths</p>
             <p class="credit">
                 made by group <span class="team">Team Maybe</span>
             </p>
