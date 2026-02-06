@@ -44,16 +44,26 @@
             <div class="tips-column">
                 <h3 class="column-title">What do you need?</h3>
                 <p class="tip-list">
-                    <p>gets filled in later</p>
-                    <p>gets filled in later</p>
-                    <p>gets filled in later</p>
-                    <p>gets filled in later</p>
-                    <p>gets filled in later</p>
-                    <p>gets filled in later</p>
-                    <p>gets filled in later</p>
+                    <p>First, let's prepare for the cold Finnish winter weather.</p>
+                    <p> <h3>Dress in layers - the right way </h3>
+                        Thermal base layer (wool or synthetic underwear + leggings) → thick sweater/fleece → waterproof/windproof 
+                        winter jacket + snow pants → warm boots with good grip, thick wool socks, mittens, hat, and scarf. No shortcuts — cold bites hard!</p>
+                    <p><h3>Get proper winter boots and grip</h3>
+                        Insulated, waterproof boots are a must (snow and ice are slippery). Add ice grips or choose 
+                        boots with thick soles. Indoors get super warm, so easy to remove layers.</p>
+                    <p><h3>Protect your face, hands & lips</h3>
+                        Use thick mittens (better than gloves), cover your face with a scarf or neck gaiter on windy days.
+                        Bring strong lip balm and face cream — the dry cold air cracks skin fast.</p>
+                    <p><h3>Pack for darkness & battery drain</h3>
+                        Days are short (sun up only ~6-8 hours). Bring a power bank (cold kills phone batteries quickly), sunglasses (snow glare), 
+                        and a headlamp if going far north. Reflector clip helps for walking in the dark.</p>
+                    <p><h3>Embrace sauna & stay hydrated</h3>
+                        Bring a swimsuit — almost every place has a sauna to warm up! Drink lots of water 
+                        (you dehydrate fast in cold dry air). Book winter activities (northern lights, husky, etc.) early — February is peak season.</p>
             </div>
         </div>
     </section>
+
 
     <script src="script.js"></script>
 </body>
