@@ -5,89 +5,171 @@
 }
 
 body {
-    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    background: #f8faff;
-    color: #111827;
-    min-height: 100vh;
-    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #ffffff;
+    color: #111111;
+    line-height: 1.6;
 }
 
-.hero-box {
-    background: linear-gradient(145deg, #3b82f6 0%, #1d4ed8 100%);
-    color: white;
-    border-radius: 24px;
-    overflow: hidden;
-    box-shadow: 0 10px 40px rgba(59, 130, 246, 0.18);
-    max-width: 480px;
-    margin: 0 auto;
+
+.montserrat-heading {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
-.logo-section {
-    padding: 70px 30px 50px;
-    text-align: center;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #eeeeee;
+    background-color: #f5f3eb;
 }
 
-.main-logo {
-    font-size: 5.2rem;
+.navbar-logo {
+    width: 65px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.logo svg {
+    display: block;
+}
+
+.auth-buttons button {
+    padding: 10px 24px;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2;
+}
+
+.btn-signin {
+    background: transparent;
+    border: 1px solid #111;
+    color: #111;
+}
+
+.btn-signin:hover {
+    background: #5db98f;
+}
+
+.btn-register {
+    background: #111;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-register:hover {
+    background: #5db98f;
+}
+
+.hero {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+
+    transition: background-image 0.8s ease-in-out;    
+}
+
+.hero-logo {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+    max-width: 900px;
+}
+
+.brand {
+    font-size: 72px;
     font-weight: 800;
-    letter-spacing: -3px;
-    line-height: 0.9;
-    text-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
-}
-
-.info-card {
-    background: white;
-    color: #111827;
-    margin: 0 24px 40px;
-    padding: 36px 28px;
-    border-radius: 20px;
-    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.11);
-    text-align: center;
-}
-
-.app-title {
-    font-size: 2.4rem;
-    font-weight: 700;
-    color: #0f172a;
+    letter-spacing: -2px;
     margin-bottom: 12px;
 }
 
 .tagline {
-    font-size: 1.08rem;
-    color: #64748b;
-    line-height: 1.5;
-    margin-bottom: 28px;
+    font-size: 22px;
+    color: #0c3148;
+    font-weight: 400;
+    margin-bottom: 120px;
 }
 
-.credit {
-    font-size: 1rem;
-    color: #6b7280;
+.gallery {
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #0c3148;
 }
 
-.team {
-    font-weight: 600;
-    color: #2563eb;
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
 }
 
-@media (max-width: 480px) {
-    .main-logo {
-        font-size: 4.2rem;
-    }
-    
-    .app-title {
-        font-size: 2.1rem;
-    }
-    
-    .hero-box {
-        border-radius: 20px;
-    }
-    
-    .logo-section {
-        padding: 60px 24px 40px;
-    }
-    
-    .info-card {
-        margin: 0 16px 32px;
-        padding: 32px 24px;
-    }
+.placeholder {
+    background: #f1f1f1;
+    aspect-ratio: 1 / 1;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+.placeholder:hover {
+    transform: scale(1.03);
+}
+
+.placeholder svg {
+    opacity: 0.6;
+}
+
+.tips-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 80px 40px 120px;
+}
+
+.tips-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.tips-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.column-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #111;
+}
+
+.tips-list {
+    list-style: none;
+}
+
+.tip-list li:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 768px) {
+    .image-grid { grid-template-columns: repeat(2, 1fr); }
+    .tips-grid { grid-template-columns: 1fr; gap: 60px; }
+    .brand { font-size: 56px; }
 }
