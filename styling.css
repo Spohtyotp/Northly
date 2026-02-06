@@ -135,7 +135,7 @@ body {
 }
 
 .tips-section {
-    max-width: 2000px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 80px 40px 120px;
     background-color: #0c3148;
@@ -151,15 +151,16 @@ body {
 
 .tips-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 100px;
+    grid-template-columns: 1fr 1fr;     
+    gap: 60px 100px;                    
+    align-items: start;
 }
 
 .column-title {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 24px;
-    color: #ffffff;
+    color: #111;
 }
 
 .tips-list {
@@ -173,5 +174,8 @@ body {
 @media (max-width: 768px) {
     .image-grid { grid-template-columns: repeat(2, 1fr); }
     .tips-grid { grid-template-columns: 1fr; gap: 60px; }
+    .tips-grid {
+        grid-template-columns: 1fr;     /* on mobile only one column → one below the other */
+        gap: 70px;}
     .brand { font-size: 56px; }
 }
